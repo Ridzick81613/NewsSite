@@ -18,7 +18,7 @@ app.get('/api/data', function (req, res) {
 
 app.post('/api/data', function (req, res) {
   let theInfoWePosted = req.body.firstName;
-  res.send(theInfoWePosted);
+  res.send(theInfoWePosted + "hhhh");
 });
 
 app.listen(3000, function () {
