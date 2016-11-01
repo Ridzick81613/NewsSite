@@ -20,6 +20,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/forReporters.css">
 
 </head>
 <body>
@@ -48,19 +49,27 @@
 </style>
 
 
-  <ul>
-     <li><a href="index.html">Home</a></li>
-     <li><a href="forReporters.html">For Reporters</a></li>
-  </ul>
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="forReporters.html">For Reporters</a></li>
+  <li style="float:right;padding-top:10px;padding-right:25px"><img src="images/whitewithred.png" alt="Company Logo" height="40" width="40"></li>
+</ul>
 
   <div class="container">
     <div class="row">
-      <div class="one-half column" style="margin-top: 25%">
-        <h4>Basic Page</h4>
-        <section id="main"></section>
-        <p>This inde.</p>
+      <div class="five columns" style="margin-top: 10%; position: relative; right: 35px;">
+        <h4>Welcome</h4>
+        <section id="main" style="color:white;"></section>
+        <p style="color:white;">Write and Submit Your Story.</p>
+      </div>
+      <div class="reportArea">
+        <textarea style="height: 450px; width: 380px" class="seven columns" placeholder="What's Happening?" id="reportInput"></textarea>
       </div>
     </div>
+  </div>
+
+  <div class="buttonStuff">
+    <input class="button-primary" type="submit" value="Submit">
   </div>
 
 <!-- End Document

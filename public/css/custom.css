@@ -160,5 +160,14 @@ body {
 }
 
 .red-font {
-     color: red;
+  color: red;
+}
+
+.w-font {
+     color: white;
+}
+
+.weatherDiv {
+  position: relative;
+  top: 75px;
 }
